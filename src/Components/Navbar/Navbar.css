@@ -1,0 +1,13 @@
+nav{
+    background: #F3C623;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 30px;
+}
+nav h1{
+    font-family: "Ruge Boogie", cursive;
+    font-size: 40px;
+}

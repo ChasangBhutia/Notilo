@@ -1,0 +1,23 @@
+.itemCard{
+    display: flex;
+    background: white;
+    width:200px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.titleDisplay{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    overflow: hidden;
+}
+.contentBox{
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    overflow: hidden;
+}
+.deleteIcon{
+    color: #F3C623;
+}
