@@ -1,9 +1,11 @@
 import "./Footer.css";
 
 const Footer = ()=>{
+    const year =new Date().getFullYear();
+
     return(
         <footer>
-            ©Keeper @2024-25
+            ©Notilo-{year} @Chasang Tsering Bhutia
         </footer>
     )
 }

@@ -1,15 +1,17 @@
 .app{
-    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     width: 100%;
-    background-color: rgb(241, 241, 186);
-    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background-color: #edf6f9;
+    overflow: scroll;
 }
 .itemContainer{
     padding: 20px;
     margin: auto;
-    margin-top: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    margin-top: 260px;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
 }
+

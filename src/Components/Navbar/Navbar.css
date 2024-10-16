@@ -1,13 +1,23 @@
-nav{
-    background: #F3C623;
+.navbar{
+    background: #A1D6B2;
     height: 50px;
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: white;
     padding: 0px 30px;
+    position: fixed;
+    z-index: 99;
 }
-nav h1{
-    font-family: "Ruge Boogie", cursive;
+.navbar h1{
+    font-family: "Dancing Script", cursive;
     font-size: 40px;
+    background:#A1D6B2;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .button{
+    color: white;
 }

@@ -2,20 +2,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    margin-top: 20px;
-}
-.inputArea hr{
-    border: black 1px solid;
+    background-color: #edf6f9;
+    padding: 20px;
+    position: fixed;
+    margin-top: 50px;
+    width: 100%;
+    z-index: 99;
 }
 
+
 .title, .content{
-    width: 230px;
+    width: 280px;
     padding: 5px;
     font-size: 19px;
     outline: none;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    
+}
+
+.alert{
+    margin-bottom:10px;
+    color:red;
+    font-weight:bold;
 }
 
 .title{
@@ -23,24 +36,47 @@
     font-weight: 600;
     border: 2px solid black;
     border-radius: 10px;
+    font-family: "Karla", sans-serif;
 }
 .content{
     height: 100px;
     border: 2px solid black;
-    font-size: 16px;
-    border-radius: 0px 0px 10px 10px;
+    font-size: 18px;
+    font-family: "Karla", sans-serif;
+    border-radius: 0px;;
 }
 
 
-.addBtn{
-    position: absolute;
-    top:80%;
-    left: 50px;
-    border-radius: 100%;
-    height: 50px;
-    width: 50px;
-    background-color: #F3C623;
+.addBtn{    
+    background-color: #73b989;
     color: white;
     font-size: 20px;
     font-weight: 600;
+    padding-top: 6px;
+    flex: 0.6;
+    border-radius: 0px 0px 10px 0px;
 }
+.addBtn:hover{
+    background-color: #57936a;
+}
+
+.contentBtnBox{
+    display: flex;
+    flex-direction: column;
+}
+.contentBtnBoxBtn{
+    display: flex;
+}
+
+.resetBtn{
+    flex: 1.4;
+    border-radius: 0px 0px 0px 10px;
+    font-size: 20px;
+}
+
+.resetBtn:hover{
+    background-color: #73b989;
+    color: white;
+}
+
+

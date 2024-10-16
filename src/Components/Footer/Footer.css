@@ -3,9 +3,10 @@ footer{
     bottom: 0;
     text-align: center;
     width: 100%;
-    background-color: rgb(246, 218, 181);
+    background-color: #b8e4f0;
     height: 40px;
     padding: 10px;
     color: grey;
     font-size: 18px;
+    font-family: "Poppins";
 }

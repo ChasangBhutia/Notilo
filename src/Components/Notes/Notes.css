@@ -1,0 +1,53 @@
+.notes{
+    height: fit-content;
+    width: fit-content;
+    background-color: #c0ecfb;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    height:fit-content;
+    
+}
+
+.notesnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.closeBtn{
+    padding-bottom: 5px;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #8ad0a0;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.notesnav h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.notes .notesTitle{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Karla", sans-serif;
+}
+
+.notesContent{
+    display: block;
+    width:200px;
+}
+

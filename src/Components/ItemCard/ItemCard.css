@@ -3,21 +3,42 @@
     background: white;
     width:200px;
     padding: 10px;
-    border-radius: 10px;
     align-items: center;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.61);
 }
 .titleDisplay{
     font-weight: 600;
-    text-transform: uppercase;
     font-size: 20px;
     overflow: hidden;
+    font-family: "Karla", sans-serif;
 }
 .contentBox{
     display: flex;
     flex-direction: column;
     width: 99%;
     overflow: hidden;
+    font-family: "Karla", sans-serif;
 }
 .deleteIcon{
-    color: #F3C623;
+    color: #8ad0a0;
+}
+
+.readMoreBtn{
+    font-size: 15px;
+    margin-top: 10px;
+    background: #8ad0a0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
+
+.readMoreBtn:hover{
+    color: blue;
 }

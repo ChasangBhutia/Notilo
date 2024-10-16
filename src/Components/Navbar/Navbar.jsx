@@ -3,8 +3,8 @@ import TextSnippetSharpIcon from '@mui/icons-material/TextSnippetSharp';
 
 const Navbar = ()=>{
     return(
-        <nav>
-            <h1><TextSnippetSharpIcon/>Keeper</h1>
+        <nav className="navbar">
+            <h1><TextSnippetSharpIcon fontSize=""/>Notilo</h1>
         </nav>
     )
 }
