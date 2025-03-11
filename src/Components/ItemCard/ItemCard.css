@@ -42,3 +42,24 @@
 .readMoreBtn:hover{
     color: blue;
 }
+
+
+@media screen and (max-width:456px) {
+    .itemCard{
+        width: 150px;
+    }
+    .readMoreBtn{
+        width: 80px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:344px) {
+    .itemCard{
+        width: 120px;
+    }
+    .readMoreBtn{
+        width: 60px;
+        font-size: 8px;
+    }
+}

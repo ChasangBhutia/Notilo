@@ -5,25 +5,25 @@ import ItemCard from './Components/ItemCard/ItemCard'
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 
-const getLocalStorage = ()=>{
+const getLocalStorage = () => {
   const storedNotes = localStorage.getItem('notes');
-  if(storedNotes) return JSON.parse(localStorage.getItem('notes'));
+  if (storedNotes) return JSON.parse(localStorage.getItem('notes'));
 }
 
 function App() {
 
   const [notes, setNotes] = useState(getLocalStorage)
-  
 
-  useEffect(()=>{
+
+  useEffect(() => {
     localStorage.setItem('notes', JSON.stringify(notes))
 
-  },[notes])
-  
-    
-  
-  
-  
+  }, [notes])
+
+
+
+
+
   function addItem(newNote) {
     setNotes(prevValue => {
       return [...prevValue, newNote]
@@ -44,6 +44,7 @@ function App() {
     <div className="app">
       <Navbar />
       <InputArea onAdd={addItem} />
+
       <div className='itemContainer'>
         {notes.map((item, index) => {
           return (
@@ -51,6 +52,8 @@ function App() {
           )
         })}
       </div>
+
+
       <Footer />
     </div>
   );

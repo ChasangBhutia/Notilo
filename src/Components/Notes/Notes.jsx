@@ -13,8 +13,10 @@ const Notes = (props)=>{
                 <button className="closeBtn" onClick={props.removeNote}>x</button>
             </nav>
             <hr/>
-            <p className="notesTitle">{props.title}</p>
-            <span className="notesContent">{props.content}</span>
+          <div className="noteHolder">
+          <h3 className="notesTitle">{props.title}</h3>
+          <span className="notesContent">{props.content}</span>
+          </div>
         </div>
     )
 }

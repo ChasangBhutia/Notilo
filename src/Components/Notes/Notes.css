@@ -7,7 +7,6 @@
     flex-direction: column;
     max-width: 400px;
     height:fit-content;
-    
 }
 
 .notesnav{
@@ -49,5 +48,11 @@
 .notesContent{
     display: block;
     width:200px;
+    
 }
+
+.noteHolder{
+    text-align: left;
+}
+
 
